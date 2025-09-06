@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Program
+comment0.text=\n\ The\ Program\ class\ represents\ the\ highest\ level\ object\ in\ the\ grammar,\ and\n\ encompasses\ the\ entire\ code\ for\ evaluation.\n\n\ @author\ Anish\ Jain\n\ @version\ 11/9/23\n
+comment1.params=f\ s\ vnames
+comment1.target=Program(java.util.List,\ Statement,\ java.util.List)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Program\n\ \n\ @param\ f\ the\ procedures/functions\ in\ this\ Program\n\ @param\ s\ the\ Statement/block\ of\ Statements\ to\ be\ evaluated\ \ \n\ @param\ vnames\ all\ the\ variable\ names\ in\ this\ program\n
+comment2.params=e
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ Executes\ program\ by\ executing\ each\ procedure\ declaration\ and\ the\n\ following\ statement/block\ of\ statements.\n\ \n\ @param\ e\ the\ environment\ in\ which\ the\ Program\ is\ executed\ \n
+comment3.params=filename
+comment3.target=void\ compile(java.lang.String)
+comment3.text=\n\ Emits\ full\ Pascal\ program\ into\ MIPS.\ Defines\ newline\ variable,\ then\n\ initializes\ all\ declared\ variables\ at\ the\ top\ to\ 0.\ Finally,\ writes\n\ .text\ and\ .main\ sections,\ compiles\ main\ body\ of\ code,\ and\ terminates.\ \n\ \n\ @param\ filename\ the\ filename\ where\ output\ code\ is\ stored\n
+numComments=4

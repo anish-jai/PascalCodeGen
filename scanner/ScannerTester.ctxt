@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ScannerTester
+comment0.text=\n\ Tester\ for\ the\ Scanner\ class.\n\ \n\ @author\ \ Anish\ Jain\n\ @author\ Ms.\ Datar\n\n\ @version\ 9/5/23\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Main\ method\ for\ testing\ Scanner\ class.\n\n\ @param\ args\ arguments\ from\ the\ command\ line\n
+numComments=2

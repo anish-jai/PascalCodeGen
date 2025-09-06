@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Expression
+comment0.text=\n\ The\ Expression\ abstract\ class\ is\ a\ framework\ for\ all\ expressions\n\ and\ calculations.\n\n\ @author\ Anish\ Jain\n\ @version\ 10.19.23\n
+comment1.params=env
+comment1.target=int\ eval(environment.Environment)
+comment1.text=\n\ Every\ object\ that\ is\ an\ Expression\ must\ be\ able\ to\ be\ calculated\ \n\ in\ some\ form;\ provides\ a\ basis\ for\ evaluation.\n\ \n\ @param\ env\ the\ environment\ where\ all\ the\ variables\ and\ their\ values\ \n\ are\ stored\n\ \n\ @return\ int\ the\ integer\ value\ of\ the\ evaluated\ expression\n
+comment2.params=e
+comment2.target=void\ compile(emitter.Emitter)
+comment2.text=\n\ Will\ be\ overrided\ by\ each\ AST\ component,\ this\ serves\ as\ a\ reminder\n\ if\ one\ has\ not\ been.\n\ \n\ @param\ e\ the\ emitter\ that\ will\ compile\ this\ Expression\n
+numComments=3

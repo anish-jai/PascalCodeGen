@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=If
+comment0.text=\n\ The\ If\ class\ is\ a\ Statement\ that\ is\ useful\ for\ executing\ simple\ \n\ "If...Then"\ statements.\n\n\ @author\ Anish\ Jain\n\ @version\ 10.19.23\n
+comment1.params=c\ s
+comment1.target=If(Conditional,\ Statement)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ If\n\ \n\ @param\ c\ the\ Conditional\ that\ will\ determine\ whether\ the\ If\ is\ executed\n\ @param\ s\ the\ statement\ to\ be\ executed\ if\ the\ conditional\ is\ deemed\ true\n
+comment2.params=e
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ Executes\ the\ If\ statement\ by\ checking\ if\ the\ conditional\ c\ is\ true.\n\ If\ true,\ executes\ the\ following\ "then"\ statement,\ otherwise\ does\n\ nothing.\n\ \n\ \n\ @param\ e\ the\ environment\ where\ the\ statements\ are\ being\ executed\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ Compiles\ if\ by\ compiling\ conditional.\ Compiles\ statement\ if\n\ cond\ is\ true,\ otherwise\ jumps\ to\ a\ unique\ label.\n\ \n\ \n\ @param\ e\ The\ emitter\ writing\ the\ code\n
+numComments=4

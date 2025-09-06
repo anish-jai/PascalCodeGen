@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ProcedureCall
+comment0.text=\n\ The\ ProcedureCall\ class\ calls\ upon\ the\ associated\ procedure\ and\ \n\ evaluates\ it\n\n\ @author\ Anish\ Jain\n\ @version\ 11.9.23\n
+comment1.params=n\ e
+comment1.target=ProcedureCall(java.lang.String,\ java.util.List)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ProcedureCall\n\ \n\ @param\ n\ the\ name\ of\ the\ procedure\ that\ is\ being\ called\n\ @param\ e\ the\ expressions/parameters\ for\ this\ procedure\n
+comment2.params=e
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ Evaluates\ this\ procedure\ by\ accessing\ the\ declaration\ from\ the\ parent\n\ environment.\ Then,\ executes\ the\ statement/s\ within\ the\ function\n\ in\ order\ to\ return\ the\ final\ value\ of\ the\ procedure.\n\ \n\ @param\ e\ the\ environment\ for\ this\ procedure\ call\n\ @return\ int\ the\ final\ evaluated\ value\ of\ the\ procedure\n
+numComments=3

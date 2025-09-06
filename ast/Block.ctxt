@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Block
+comment0.text=\n\ A\ Block\ is\ a\ group\ of\ multiple\ statements.\n\n\ @author\ Anish\ Jain\n\ @version\ 10.25.23\n
+comment1.params=statements
+comment1.target=Block(java.util.List)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Block\n\ \n\ @param\ statements\ the\ set\ of\ statements\ that\ make\ up\ this\ Block\n
+comment2.params=env
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ Executes\ all\ the\ statements\ in\ this\ block\ by\ looping\ through\ \n\ the\ list\ of\ statements.\n\ \n\ @param\ env\ the\ environment\ where\ the\ Block\ will\ be\ executed\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ Compiles\ a\ block\ by\ individually\ compiling\ the\ statements\ within\ it\n\ \n\ @param\ e\ Emitter\ that\ writes\ the\ code\n
+numComments=4

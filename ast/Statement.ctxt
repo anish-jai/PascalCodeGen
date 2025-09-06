@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Statement
+comment0.text=\n\ The\ Statement\ abstract\ class\ is\ a\ framework\ for\ all\ code\ that\ executes\n\ statements.\n\n\ @author\ Anish\ Jain\n\ @version\ 10.19.23\n
+comment1.params=env
+comment1.target=void\ exec(environment.Environment)
+comment1.text=\n\ Executes\ this\ statement;\ every\ object\ that\ is\ a\ Statement\ must\ \n\ be\ executed\ in\ some\ form\n\ \n\ @param\ env\ the\ environment\ in\ which\ the\ executions\ happen\n
+comment2.params=e
+comment2.target=void\ compile(emitter.Emitter)
+comment2.text=\n\ Will\ be\ overrided\ by\ each\ AST\ component,\ this\ serves\ as\ a\ reminder\n\ if\ one\ has\ not\ been.\n\ \n\ @param\ e\ the\ emitter\ that\ will\ compile\ this\ Statement\n
+numComments=3

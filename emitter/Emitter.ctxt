@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Emitter
+comment0.text=\n\ The\ Emitter\ class\ allows\ us\ to\ emit\ code\ from\ Pascal\ into\ MIPS.\n\ \n\ \n\ @author\ Anish\ Jain\n\ @version\ 1.7.24\n
+comment1.params=outputFileName
+comment1.target=Emitter(java.lang.String)
+comment1.text=\n\ Creates\ an\ Emitter\ object\ that\ generates\ PASCAL\ code\ into\ MIPS\ in\ a\ \n\ new\ output\ file\n\ \n\ @param\ outputFileName\ the\ name\ of\ the\ output\ file\ that\ will\ be\ generated\n
+comment2.params=code
+comment2.target=void\ emit(java.lang.String)
+comment2.text=\n\ Prints\ one\ line\ of\ code\ to\ file\ (with\ non-labels\ indented)\n\ \n\ @param\ code\ the\ code\ to\ emit\n
+comment3.params=
+comment3.target=void\ close()
+comment3.text=\n\ Closes\ the\ file,\ should\ be\ called\ after\ all\ calls\ to\ emit.\n\ \n
+comment4.params=
+comment4.target=void\ nline()
+comment4.text=\n\ Makes\ a\ newline\ in\ MIPS\n\ \n
+comment5.params=r
+comment5.target=void\ emitPush(java.lang.String)
+comment5.text=\n\ Push\ the\ value\ in\ register\ onto\ the\ stack\n\ @param\ r\ the\ register\ to\ extract\ the\ value\ from\n
+comment6.params=r
+comment6.target=void\ emitPop(java.lang.String)
+comment6.text=\n\ Pops\ the\ value\ on\ the\ top\ of\ the\ stack\ into\ register\n\ @param\ r\ the\ register\ to\ put\ the\ value\ at\ the\ top\ of\ the\ stack\n
+comment7.params=
+comment7.target=int\ nextLabelID()
+comment7.text=\n\ Gives\ current\ label\ ID\ for\ if\ Statement\ branch\ to\ make\ sure\ each\n\ branch\ is\ unique.\n\ \n\ @return\ int\ current\ if\ statement\ branch\ ID\n
+numComments=8

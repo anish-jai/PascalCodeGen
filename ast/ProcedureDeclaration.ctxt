@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ProcedureDeclaration
+comment0.text=\n\ A\ ProcedureDeclaration\ represents\ the\ declaration\ of\ one\ of\ Procedure,\n\ containing\ the\ name,\ required\ paramaters,\ and\ statements\ within\ the\ body\n\ of\ the\ function.\n\ \n\n\ @author\ Anish\ Jain\n\ @version\ 11.9.23\n
+comment1.params=fn\ p\ s
+comment1.target=ProcedureDeclaration(java.lang.String,\ java.util.List,\ Statement)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ ProcedureDeclaration\n\ \n\ @param\ fn\ the\ function\ name\n\ @param\ p\ the\ list\ of\ parameters\ needed\ for\ this\ procedure\n\ @param\ s\ the\ statement/block\ inside\ the\ body\ of\ the\ procedure\n
+comment2.params=
+comment2.target=Statement\ getStatement()
+comment2.text=\n\ Getter\ for\ the\ body\ statements\ of\ the\ procedure\ declaration\n\ \n\ @return\ Statement\ the\ statement\ within\ this\ ProcedureDeclaration\n
+comment3.params=
+comment3.target=java.util.List\ getParams()
+comment3.text=\n\ Getter\ for\ the\ params\ of\ the\ procedure\ declaration\n\ \n\ @return\ List\ the\ list\ of\ parameters\ of\ this\ procedure\ dec\n
+comment4.params=e
+comment4.target=void\ exec(environment.Environment)
+comment4.text=\n\ Executes\ this\ procedure\ declaration\ by\ setting/assigning\ it\ to\ the\ \n\ environment\ \n\ \n\ @param\ e\ the\ environment\ this\ ProcedureDeclaration\ is\ in\n
+numComments=5

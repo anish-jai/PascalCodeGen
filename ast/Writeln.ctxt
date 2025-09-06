@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Writeln
+comment0.text=\n\ The\ Writeln\ class\ is\ a\ simple\ print\ function,\ where\ anything\ in\ the\n\ paranthesis\ are\ evaluated\ and\ printed.\n\n\ @author\ Anish\ Jain\n\ @version\ 10.19.23\n
+comment1.params=e
+comment1.target=Writeln(Expression)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Writeln\n\ \n\ @param\ e\ the\ Expression\ to\ be\ evaluated/printed\n
+comment2.params=env
+comment2.target=void\ exec(environment.Environment)
+comment2.text=\n\ Executes\ the\ Writeln\ by\ evaluating\ and\ printing\ the\ expression.\n\ \n\ @param\ env\ the\ environment\ where\ the\ Writeln\ will\ be\ executed\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ Emits/Compiles\ this\ Writeln\ statement\n\ \n\ @param\ e\ the\ Emitter\ to\ emit\ the\ code\n
+numComments=4

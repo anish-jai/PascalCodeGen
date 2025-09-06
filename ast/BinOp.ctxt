@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=BinOp
+comment0.text=\n\ The\ BinOp\ class\ is\ an\ Expression\ useful\ for\ calculating\ the\ value\ \n\ of\ two\ expressions\ with\ an\ operator\ between\ them.\n\n\ @author\ Anish\ Jain\n\ @version\ 10.19.23\n
+comment1.params=oper\ e1\ e2
+comment1.target=BinOp(java.lang.String,\ Expression,\ Expression)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ BinOp\n\ \n\ @param\ oper\ the\ operator\ between\ the\ two\ expressions\n\ @param\ e1\ the\ expression\ to\ the\ left\ of\ the\ operator\n\ @param\ e2\ the\ expression\ to\ the\ right\ of\ the\ operator\n
+comment2.params=envir
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ Evaluates\ this\ BinOp,\ returning\ the\ value\ of\ the\ operation\ after\n\ evaluating\ each\ expression\ individually.\ \n\ \n\ Operators\ include\ +,\ -,\ *,\ %,\ and\ /.\n\ \n\ @param\ envir\ the\ environment\ where\ the\ calculations/evaluation\n\ is\ occurring\n\ \n\ @return\ int\ the\ integer\ value\ of\ the\ evaluated\ BinOp\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ Compiles\ a\ binary\ op.\ First\ compiles\ left\ side\ of\ expression\ by\ \n\ pushing\ it\ onto\ the\ stack,\ then\ computes\ right\ side.\ Then\ carries\ out\n\ the\ operation\ and\ stores\ value\ in\ $t0\ register.\n\ \n\ @param\ e\ the\ Emitter\ that\ writes\ the\ code\n
+numComments=4

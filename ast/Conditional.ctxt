@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Conditional
+comment0.text=\n\ The\ Conditional\ class\ is\ an\ Expression\ that\ is\ useful\ for\ evaluating\n\ boolean\ operations.\n\ \n\ \n\ @author\ Anish\ Jain\n\ @version\ 10.19.23\n
+comment1.params=oper\ e1\ e2
+comment1.target=Conditional(java.lang.String,\ Expression,\ Expression)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Conditional\n\ \n\ @param\ oper\ the\ relative\ operator\ \n\ @param\ e1\ the\ expression\ to\ the\ left\ of\ the\ operator\n\ @param\ e2\ the\ expression\ to\ the\ right\ of\ the\ operator\n
+comment2.params=e
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ Evaluates\ this\ conditional,\ by\ comparing\ the\ two\ expressions\ based\n\ upon\ what\ the\ operator\ is.\ \n\ Potential\ operators\ include\:\ \=\=,\ <>,\ >,\ >\=,\ <,\ <\=\n\ \n\ @param\ e\ the\ environment\ in\ which\ the\ evaluation\ happens\n\ \n\ @return\ int\ either\ 0\ or\ 1,\ representing\ false\ and\ true\ respectively\n
+comment3.params=e\ tlabel
+comment3.target=void\ compile(emitter.Emitter,\ java.lang.String)
+comment3.text=\n\ \ Compiles\ a\ conditional\ by\ evaluating\ the\ first\ expression,\n\ pushing\ it\ onto\ the\ stack,\ evaluating\ the\ second,\ then\ storing\ the\ first\ in\ a\ temp\n\ \n\ \n\ @param\ e\ Emitter\ that\ generates\ code\n\ @param\ tlabel\ the\ target\ label\ to\ jump\ if\ the\ expression\ is\ false\n
+numComments=4

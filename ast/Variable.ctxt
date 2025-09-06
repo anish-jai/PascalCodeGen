@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Variable
+comment0.text=\n\ The\ Variable\ class\ is\ an\ Expression\ useful\ for\ creating/evaluating\ \n\ variables\ with\ integer\ values.\n\n\ @author\ Anish\ Jain\n\ @version\ 10.19.23\n
+comment1.params=varName
+comment1.target=Variable(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Variable\n\ \n\ @param\ varName\ the\ name\ of\ this\ variable\n
+comment2.params=e
+comment2.target=int\ eval(environment.Environment)
+comment2.text=\n\ Evaluates\ this\ variable\ by\ returning\ its\ value.\n\ \n\ @param\ e\ the\ environment\ where\ the\ variables\ and\ their\ values\ are\ \n\ stored\n\ \n\ @return\ int\ the\ integer\ value\ corresponding\ with\ this\ variable's\n\ name\n
+comment3.params=e
+comment3.target=void\ compile(emitter.Emitter)
+comment3.text=\n\ Compiles\ a\ variable,\ loads\ it\ into\ a\ temp\ register\ then\ \n\ loads\ its\ value\ into\ $v0\n\ \n\ @param\ e\ The\ emitter\ that\ writes\ the\ code\n
+numComments=4
