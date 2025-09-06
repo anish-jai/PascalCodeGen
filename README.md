@@ -1,4 +1,4 @@
-# Pascal-like Language Compiler and Interpreter
+# Pascal Language Compiler and Interpreter
 
 A Java-based compiler and interpreter for a Pascal-like programming language that supports compilation to MIPS assembly code.
 
